@@ -35,6 +35,10 @@
     ]
   },
   "devDependencies": {
-    "cli-react": "^2.1.0"
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "cli-react": "^2.1.0",
+    "core-js": "3.0.0",
+    "replace": "^1.1.5",
+    "typescript": "^3.8.3"
   }
 }
