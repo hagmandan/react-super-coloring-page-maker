@@ -38,7 +38,7 @@ class Canvas extends Component {
           posy={rand.y} />;
 
       // set
-      if (this.props.rectangleData.length < this.props.numRectangles) {
+      if (this.state.allRectangles.length < this.props.numRectangles) {
         this.state.allRectangles.push(rect);
         this.props.setData({ id: `rect_${i}`, ...rand});
       }
