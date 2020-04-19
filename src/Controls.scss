@@ -1,0 +1,54 @@
+.controls {
+  width: 400px;
+  min-height: 100px;
+  padding: 0.8rem 1.6rem;
+  margin: 0 auto 1rem;
+  border: 1px solid #333;
+}
+
+.form-control {
+  label {
+    display: block;
+    text-align: center;
+    margin: .8rem 0;
+  }
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    padding: 0.8rem;
+  }
+}
+.form-actions {
+  margin-top: 1.6rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  padding-top: 0.6rem;
+  text-align: center;
+
+  button {
+    padding: 1.2rem 2rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0 .2rem;
+  }
+
+  button[type=submit] {
+    background: green;
+    cursor: pointer;
+    border: 1px solid red;
+  }
+
+  button[type=reset] {
+    background: #efefef;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    border: 1px dotted #999;
+    cursor: crosshair;
+  }
+
+  button[type=button] {
+    background: lightblue;
+    cursor: grab;
+  }
+}
